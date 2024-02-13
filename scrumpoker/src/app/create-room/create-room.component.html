@@ -1,0 +1,10 @@
+<div>
+  <h2>Oda Oluştur</h2>
+  <form (ngSubmit)="onSubmit()">
+    <mat-form-field appearance="fill">
+      <mat-label>Oda Adı</mat-label>
+      <input matInput type="text" name="roomName" [(ngModel)]="roomName" required>
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">Oda Oluştur</button>
+  </form>
+</div>
